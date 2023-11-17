@@ -74,6 +74,12 @@ export function AddDish() {
       return alert("Você deixou um ingrediente no campo para adicionar");
     }
 
+    const formattedPrice = parseFloat(price.replace("R$ ", "").replace(",", "."));
+
+    if (isNaN(formattedPrice)) {
+      return alert("Formato de preço inválido");
+    }
+
   
 
     const formData = new FormData();
@@ -81,7 +87,7 @@ export function AddDish() {
     formData.append("title", title);
     formData.append("description", description);
     formData.append("category", category);
-    formData.append("price", price);
+    formData.append("price", formattedPrice);
 
     ingredients.map((ingredient) => formData.append("ingredients", ingredient));
 
