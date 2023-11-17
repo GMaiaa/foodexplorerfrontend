@@ -134,7 +134,7 @@ export function AddDish() {
                 <option value="none">Categoria</option>
                 <option value="mainCourse">mainCourse</option>
                 <option value="dessert">dessert</option>
-                <option value="drink">Bebida</option>
+                <option value="drink">drink</option>
                 </select>
               </Select>
             </InputWrapper>
