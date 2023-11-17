@@ -1,4 +1,3 @@
-// Import de estilizações
 import {
   Container,
   Main,
@@ -11,7 +10,6 @@ import {
   Select,
 } from "./styles";
 
-// Import de componentes
 import { Header } from "../../components/Header/";
 import { Footer } from "../../components/Footer/";
 import { Input } from "../../components/Input";
@@ -19,7 +17,6 @@ import { IngredientItem } from "../../components/IngredientItem";
 import { Button } from "../../components/Button";
 import { Error401 } from "../../components/Error401";
 
-// Import de ícones
 import { IoIosArrowBack } from "react-icons/io";
 import { FiUpload } from "react-icons/fi";
 
@@ -116,8 +113,6 @@ export function Edit() {
     fetchDish();
   }, []);
 
-
-
   return (
     <Container>
       <Header />
@@ -156,10 +151,10 @@ export function Edit() {
               <Select>
                 <label htmlFor="">Categoria</label>
                 <select onChange={(e) => setCategory(e.target.value)}>
-                  <option value="none">{category}</option>
-                  <option value="Prato Principal">Prato Principal</option>
-                  <option value="Sobremesa">Sobremesa</option>
-                  <option value="Bebida">Bebida</option>
+                  <option value="none">Categoria</option>
+                  <option value="mainCourse">mainCourse</option>
+                  <option value="dessert">dessert</option>
+                  <option value="drink">drink</option>
                 </select>
               </Select>
             </InputWrapper>
