@@ -1,7 +1,7 @@
-![image](https://github.com/GMaiaa/foodexplorerfrontend/assets/93339743/b89a10af-9c1d-402d-95f0-757143fa4201)![image](https://github.com/GMaiaa/foodexplorerfrontend/assets/93339743/3e059771-a953-4560-b57c-aad0a0371c87)![image](https://github.com/GMaiaa/foodexplorerfrontend/assets/93339743/1a64c597-8671-4a71-8627-6423a858c462)
+
 <h1 align="center">
   <br>
-  <a href="https://www.figma.com/file/pyqnpGSHgGOUi20sfVaGzS/food-explorer-v2-(Community)-(Community)?type=design&node-id=201-1534&mode=design&t=0vQwIDvwR4WXI704-0"><img src="https://github.com/GMaiaa/foodexplorerfrontend/assets/93339743/4d9794c5-7554-49fa-9046-d69e3386d4ba)
+  <a href="https://www.figma.com/file/pyqnpGSHgGOUi20sfVaGzS/food-explorer-v2-(Community)-(Community)?type=design&node-id=201-1534&mode=design&t=0vQwIDvwR4WXI704-0"><img src="https://www.figma.com/file/pyqnpGSHgGOUi20sfVaGzS/food-explorer-v2-(Community)-(Community)?type=design&node-id=201-1534&mode=design&t=0vQwIDvwR4WXI704-0
 " alt="FoodExplorer" width="200"></a>
   <br>
   Food Explorer
