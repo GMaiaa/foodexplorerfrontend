@@ -29,6 +29,10 @@ The responsive application, in accordance with the Mobile First concept that was
 
 Deploy : https://foodexplorer-gabrielmaia.netlify.app/
 
+Admin account: 
+Email: gabriel@email.com
+password: admin123
+
 
 ## How To Use
 
